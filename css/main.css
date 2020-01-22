@@ -16,3 +16,28 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  max-width: 15em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
