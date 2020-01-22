@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-
+  font: normal 100%/1.3 "Roboto Slab", serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -37,7 +37,7 @@ figcaption {
   left: 8px;
   max-width: 15em;
   background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: .5rem;
 }
